@@ -33,7 +33,11 @@ ylabel('Ak'),title('Spectrul de Amplitudini');%afisarea spectrului;
 
 
 figure (2)  %Figura 2 cu reconstructia semnalului
- 
+%Semnalul dreptunghiular este format dintr-o suma de sinusuri
+%Semnalul dreptunghiular obtinut de square() este unul ideal
+%Adunarea mai multor sinusuri de frecvente = k*fo (fo este frecventa fundamentala)
+%semnalul dreptunghiular ia forma sinusului cu frecventa fundamentala
+%prin reconstructie se evidentiaza cele spuse mai sus
 clear
 
 T=40;
